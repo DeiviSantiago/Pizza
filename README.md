@@ -1,1 +1,3 @@
-# Pizza
+Patron Observador en Codigo
+
+El sistema implementa una combinación de patrones de diseño: el patrón Decorador para permitir una composición flexible y dinámica de ingredientes en una pizza, y el patrón Observador para notificar a los interesados (observadores) sobre cambios de estado en la pizza. Esto da como resultado un diseño desacoplado, extensible y fácil de mantener, que refleja escenarios reales de negocios donde el estado del objeto principal debe ser rastreado y respondido en tiempo real.

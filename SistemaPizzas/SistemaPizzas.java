@@ -11,7 +11,7 @@ public class SistemaPizzas {
         miPizzaBase.registerObserver(new Observer() {
             @Override
             public void update(Pizza pizza) {
-                System.out.println("NOTIFICACIÓN: Pizza actualizada:");
+                System.out.println("----- NOTIFICACIÓN: Pizza actualizada: -----");
                 System.out.println("Descripción: " + pizza.getDescription());
                 System.out.println("Costo: $" + pizza.getCost());
             }
